@@ -2,9 +2,9 @@ backend:
   name: git-gateway
   branch: master # Branch to update (optional; defaults to master)
 
-  publish_mode: editorial_workflow
-  media_folder: "..Images/uploads" # Media files will be stored in the repo under Images/uploads
-  collections:
+publish_mode: editorial_workflow
+media_folder: "Images/uploads" # Media files will be stored in the repo under Images/uploads
+collections:
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
     folder: "_posts/blog" # The path to the folder where the documents are stored
